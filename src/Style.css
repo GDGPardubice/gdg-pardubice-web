@@ -1,0 +1,107 @@
+﻿body {
+    background-color: #ebebeb;
+    margin: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url('content/header-wall.png');
+    background-repeat: repeat-x;
+    height: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    background-image: url('content/wall.png');
+    background-repeat: repeat-x;
+}
+
+.page {
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-menu {
+    margin-top: 41px;
+}
+
+    .social-menu ul {
+        list-style-type: none;
+    }
+
+    .social-menu li {
+        display: inline;
+        padding-right: 20px;
+    }
+
+    .social-menu a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+        .social-menu a:hover {
+            text-decoration: underline;
+        }
+
+.box {
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 20px;
+    float: left;
+}
+
+    .box img {
+        border: 1px solid #d0d0d0;
+    }
+
+    .box h1 {
+        line-height: 0px;
+        margin: 15px 0 0 0;
+    }
+
+        .box h1 a {
+            color: #439bd1;
+            font-size: 20pt;
+            text-decoration: none;
+        }
+
+            .box h1 a:hover {
+                color: #ff7e00;
+            }
+
+    .box h2 {
+        color: #5e5e5e;
+    }
+
+    .box p {
+        font-size: 12pt;
+    }
+
+    .box .event {
+        background-color: #f6f6f6;
+        font-size: 10pt;
+        padding: 5px 15px 5px 15px;
+        color: #6b6b6b;
+        border-top: 1px solid  #d0d0d0;
+    }
+
+.box .box-info {
+    padding: 10px;
+}
+
+
+.bottom {
+    font-size: 11pt;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #9a9797;
+}
