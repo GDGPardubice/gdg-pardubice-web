@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: #ebebeb;
     margin: 0px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -40,15 +40,23 @@
         display: inline;
         padding-right: 20px;
     }
+        .social-menu li.divider {
+            color: #ffffff;
+            font-weight: bold;
+        }
 
     .social-menu a {
         color: white;
         text-decoration: none;
     }
 
-
-        .social-menu a:hover {
+        .social-menu a:hover,
+        .social-menu a.active {
             text-decoration: underline;
+        }
+        
+        .social-menu a.active {
+            font-weight: bold;
         }
 
 .box {
@@ -79,6 +87,10 @@
 
     .box h2 {
         color: #5e5e5e;
+    }
+
+    .box h3 {
+        text-align: center;
     }
 
     .box p {
