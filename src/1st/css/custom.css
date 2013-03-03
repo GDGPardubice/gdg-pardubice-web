@@ -1,0 +1,12 @@
+#logo {
+    border: 0px white;
+}
+
+#contacts {
+    list-style-type: none;
+}
+#contacts img {
+    border: 0px white;
+    box-shadow: none;
+    vertical-align: middle;
+}
