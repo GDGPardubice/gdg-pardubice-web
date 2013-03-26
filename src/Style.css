@@ -96,6 +96,10 @@ body {
     .box h2 {
         color: #5e5e5e;
     }
+        .box h2 a {
+            color: #5e5e5e;
+            text-decoration: none;
+        }
 
     .box h3 {
         text-align: center;
